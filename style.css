@@ -86,51 +86,15 @@ p {
     color: #5a4f3f;
 }
 
-.slider {
+.image {
     position: relative;
-    max-width: 500px;
-    margin: 1rem auto;
-    overflow: hidden;
+    margin-top: 1rem;
     border: 2px solid #d4c2a5;
     border-radius: 10px;
+	width: 100%;
+	height: auto;
+	max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.slide-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.slide {
-    width: 100%;
-    height: auto;
-    display: none;
-}
-
-.slider button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    color: #5a4f3f;
-    font-size: 2rem;
-    cursor: pointer;
-    padding: 0.5rem;
-    z-index: 10;
-}
-
-.slider .prev {
-    left: 0;
-}
-
-.slider .next {
-    right: 0;
-}
-
-.slider button:hover {
-    background-color: rgba(212, 194, 165, 0.9);
 }
 
 @media (max-width: 768px) {
